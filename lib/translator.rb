@@ -7,6 +7,7 @@ def load_library(emotes)
   hash = {
     :get_meaning => {
       "☜(⌒▽⌒)☞" => "angel",
+      "ヽ(ｏ`皿′ｏ)ﾉ" => "angry",
       
     },
     :get_emoticon => {}
