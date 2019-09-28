@@ -40,7 +40,7 @@ def load_library(emotes)
     :get_meaning => {},
     :get_emoticon => {},
   }
-  YAMl.load_file(emotes).each {|key, value|
+  YAMl.Load_file(emotes).each {|key, value|
     hash[:get_meaning][jap_emote] = key
     hash[:get_emoticon][eng_emote] = value
   }
