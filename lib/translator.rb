@@ -2,13 +2,12 @@ require "yaml"
 
 
 def load_library(emotes)
-  emote = File.read(emotes)
-  emoticons = YAML.load(emote)
+  emoticons = YAML.load_file(emotes)
   
-  # hash = {
-  #   :get_meaning => {},
-  #   :get_emoticon => {}
-  # }
+  hash = {
+    :get_meaning => {},
+    :get_emoticon => {}
+  }
     
 end
 
