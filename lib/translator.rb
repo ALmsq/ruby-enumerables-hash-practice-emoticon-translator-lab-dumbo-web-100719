@@ -23,6 +23,7 @@ def load_library(emotes)
     :get_emoticon => {
       "O:)",
       ">:(",
+      ":O",
       
     }
   }
