@@ -50,7 +50,7 @@ end
 def get_japanese_emoticon(path, emoticon)
     emotes = load_library(path)
     emotes.each{|key, value|
-      return emotes[:get_emoticon][emote]
+      return emotes[:get_emoticon][emoticon]
     }
 end
 
