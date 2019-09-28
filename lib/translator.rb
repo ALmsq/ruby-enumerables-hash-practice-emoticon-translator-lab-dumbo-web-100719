@@ -9,7 +9,9 @@ def load_library(emotes)
       "☜(⌒▽⌒)☞" => "angel",
       "ヽ(ｏ`皿′ｏ)ﾉ" => "angry",
       "(ΘεΘ;)" => "bored",
+      "(゜.゜)"
       "(#^.^#)"
+      
     },
     :get_emoticon => {}
   }
