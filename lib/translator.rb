@@ -60,6 +60,6 @@ end
 
 def get_english_meaning(path, emoticon)
   emotes = load_library(path)
-  
+  return emotes[:get_meaning][emoticon]
 end
 
