@@ -49,7 +49,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
     emotes = load_library(path)
-    emote
+    em
 end
 
 def get_english_meaning
