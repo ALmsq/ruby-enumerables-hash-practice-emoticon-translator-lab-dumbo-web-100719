@@ -30,6 +30,7 @@ def load_library(emotes)
       "8D",
       "=D",
       ":)",
+      ":*",
       
     }
   }
