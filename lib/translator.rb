@@ -33,7 +33,7 @@ def load_library(emotes)
       ":*",
       ":'(",
       ":o",
-      
+      ";)"
     }
   }
     # hash[:get_meaning] = emoji.keys
