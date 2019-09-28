@@ -2,7 +2,7 @@ require "yaml"
 
 
 def load_library(emotes)
-  emoticons = YAML.load_file(emotes)
+  #emoticons = YAML.load_file(emotes)
   
   # hash = {
   #   :get_meaning => {
@@ -36,6 +36,15 @@ def load_library(emotes)
   #     ";)" => "(^_-)"
   #   }
   # }
+  hash = {
+    :get_meaning => {},
+    :get_emoticon => {},
+  }
+  YAMl.load_file(emotes).each {|key, value|
+    hash[:get_meaning][jap_emote] = key
+    hash[:get_emoticon][eng_emote] = value
+  }
+  hash
 end
 
 def get_japanese_emoticon(path, emoticon)
