@@ -50,7 +50,10 @@ end
 def get_japanese_emoticon(path, emoticon)
     emotes = load_library(path)
     emotes.each{|key, value|
+    if emotes[:get_emoticon][emotes]? true : false
       return emotes[:get_emoticon][emoticon]
+    else
+      return "Sorry, that emoticon was not found"
     }
 end
 
