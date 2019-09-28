@@ -21,7 +21,6 @@ def load_library(emotes)
       "(^_-)" => "wink"
     },
     :get_emoticon => {
-      :emoticons => [
       "O:)",
       ">:(",
       ":O",
@@ -35,7 +34,6 @@ def load_library(emotes)
       ":'(",
       ":o",
       ";)"
-      ]
     }
   }
 end
