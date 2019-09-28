@@ -8,7 +8,7 @@ def load_library(emotes)
     :get_meaning => {},
     :get_emoticon => {}
   }
-    puts emoticons
+    
 end
 
 def get_japanese_emoticon
