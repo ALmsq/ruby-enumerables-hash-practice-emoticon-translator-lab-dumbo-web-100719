@@ -15,6 +15,8 @@ def load_library(emotes)
       "(^0_0^)"
       "(￣ー￣)"
       "(＾ｖ＾)"
+      "(*^3^)/~☆"
+      
     },
     :get_emoticon => {}
   }
