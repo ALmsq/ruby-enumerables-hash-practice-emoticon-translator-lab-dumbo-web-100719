@@ -14,10 +14,10 @@ def load_library(emotes)
       ">゜))))彡" => "fish",
       "(^0_0^)" => "glasses",
       "(￣ー￣)" => "grinning",
-      "(＾ｖ＾)" => "happy"
-      "(*^3^)/~☆" => "kiss"
-      "(Ｔ▽Ｔ)" =>  "sad"
-      "o_O" => "surprised"
+      "(＾ｖ＾)" => "happy",
+      "(*^3^)/~☆" => "kiss",
+      "(Ｔ▽Ｔ)" =>  "sad",
+      "o_O" => "surprised",
       "(^_-)" => "wink"
     },
     :get_emoticon => {}
