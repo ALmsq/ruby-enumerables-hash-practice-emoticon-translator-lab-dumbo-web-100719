@@ -38,8 +38,8 @@ def load_library(emotes)
   }
 end
 
-def get_japanese_emoticon
-  
+def get_japanese_emoticon(path, emoticon)
+    
 end
 
 def get_english_meaning
