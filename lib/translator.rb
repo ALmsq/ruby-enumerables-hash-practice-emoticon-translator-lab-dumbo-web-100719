@@ -2,7 +2,7 @@ require "yaml"
 
 
 def load_library(emotes)
-  emote = file.read(emotes)
+  emote = File.read(emotes)
   emoticons = YAML.load_file(emote)
   
   # hash = {
