@@ -20,8 +20,8 @@ def load_library(emotes)
       "o_O" => "surprised",
       "(^_-)" => "wink"
     },
-    :get_emoticon => 
-      [
+    :get_emoticon => {
+      
       "O:)",
       ">:(",
       ":O",
@@ -35,8 +35,8 @@ def load_library(emotes)
       ":'(",
       ":o",
       ";)"
-    ]
-      
+    
+    }
     
   }
     # hash[:get_meaning] = emoji.keys
