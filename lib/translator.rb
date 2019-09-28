@@ -26,6 +26,7 @@ def load_library(emotes)
       ":O",
       "%)",
       ":$",
+      "><>",
       
     }
   }
