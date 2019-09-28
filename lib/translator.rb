@@ -8,8 +8,8 @@ def load_library(emotes)
     :get_meaning => {},
     :get_emoticon => {}
   }
-    hash[:get_meaning] = emoji.keys
-    return hash
+    # hash[:get_meaning] = emoji.keys
+    # return hash
 end
 
 def get_japanese_emoticon
